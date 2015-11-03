@@ -8,7 +8,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/louis-cai/AFNetworking-RACExtensions.git", :tag => "#{s.version}" }
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.9'
-  s.watchos.deployment_target = '2.0'
   s.source_files = 'RACAFNetworking'
   s.requires_arc = true
   s.dependency 'AFNetworking', '~> 2.0'
